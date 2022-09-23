@@ -89,3 +89,32 @@ p {
 .ml-1 {
   margin-left: 60px;
 }
+
+@media (max-width: 672px) {
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 35px !important;
+    text-align: center !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .responsive-tool {
+    text-align: center !important;
+  }
+  .homepageImg {
+    display: none;
+    margin: 60px;
+  }
+  .app-links {
+    margin-bottom: 3px;
+  }
+  .weatherApp-head {
+    margin-top: 40px;
+  }
+  .yogurtApp-head {
+    margin-top: 15px;
+  }
+}
